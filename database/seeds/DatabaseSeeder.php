@@ -15,5 +15,6 @@ class DatabaseSeeder extends Seeder
         $this->call(StatusTable::class);
         $this->call(FruitsTableSeeder::class);
         $this->call(ContaryTableSeeder::class);
+        $this->call(StateTableSeeder::class);
 	}
 }

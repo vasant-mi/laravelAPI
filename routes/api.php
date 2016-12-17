@@ -20,3 +20,4 @@ $api->get('/test', function() {
 
 $api->get('/fruits', 'App\Http\Controllers\FruitsController@index');
 $api->get('/country', 'App\Http\Controllers\CountryController@index');
+$api->get('/state/{id}', 'App\Http\Controllers\StateController@index');

@@ -11,6 +11,7 @@ class ContaryTableSeeder extends Seeder
      */
     public function run()
     {
+        DB::table('country')->delete();
         $countries = [
             ["name" => "United States", "short_code" => "US", "status_id" => 1],
             ["name" => "India", "short_code" => "IN", "status_id" => 1],

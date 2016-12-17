@@ -9,9 +9,7 @@ class CountryController extends Controller
 {
     public function index()
     {
-
         $country = Contary::all();
-        //dd($country);
         return $this->response->collection($country, new CountryTransformer);
     }
 }

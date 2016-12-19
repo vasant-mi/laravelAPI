@@ -1,10 +1,10 @@
 <?php
 namespace App\Transformers;
-use App\Contary;
+use App\Country;
 use League\Fractal\TransformerAbstract;
 class CountryTransformer extends TransformerAbstract
 {
-    public function transform(Contary $country)
+    public function transform(Country $country)
     {
         return [
             'id'        => (int) $country->id,

@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class ContaryTableSeeder extends Seeder
+class CountryTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -18,7 +18,7 @@ class ContaryTableSeeder extends Seeder
         ];
 
         foreach ($countries as $c) {
-            $country = new \App\Contary();
+            $country = new \App\Country();
             $country->name = $c['name'];
             $country->short_code = $c['short_code'];
             $country->status_id = $c['status_id'];

@@ -9,7 +9,5 @@ class Fruit extends Model
     protected $table = "fruits";
 
 
-
-
-
+// test
 }
